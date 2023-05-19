@@ -7,7 +7,7 @@ public class Person {
 
     public static void main(String[] args) {
         Person person = new Person("Ponyo", "380", "1234");
-        System.out.println("name:  " + person.name);
+        System.out.println("name:  " + person.getName());
         System.out.println("phone: " + person.getTelephoneNumber());
     }
 
