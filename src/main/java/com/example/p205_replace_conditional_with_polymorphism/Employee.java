@@ -19,7 +19,7 @@ public class Employee {
     }
 
     public int payAmount() {
-        switch (type) {
+        switch (getType()) {
             case ENGINEER:
                 return monthlySalary;
             case SALESMAN:
