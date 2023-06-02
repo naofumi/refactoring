@@ -74,18 +74,20 @@ Methods should have verb or verb phrase names like postPayment, deletePage, or s
 Note: 
 Different languages have different standards for naming getters and setters.
 
-For example, comparing Java and Ruby...
+For example, comparing Java, Laravel, and Ruby...
 
 Getters
 ```
 Java: getPost()
-Ruby: post
+Laravel: post()
+Ruby: post // In Ruby, parenthesis are optional
 ```
 
 Setters
 ```
 Java: setPost(arg)
-Ruby: post = arg
+Laravel: setPost(arg)
+Ruby: post = arg // Ruby uses regular assignment for setters
 ```
 
 In Ruby, the method definition will look like this
@@ -98,7 +100,8 @@ end
 Predicates
 ```
 Java: isLoggedIn()
-Ruby: logged_in?
+Laravel: no standard as far as I know
+Ruby: logged_in? // Ruby allows the use of ? in method names
 ```
 
 ## Pick One Word per Concept
